@@ -2,9 +2,9 @@ package javara.model.rec;
 
 public class Coop {
 
-	private int co_no = 0; 				// Çù·Â ±â°ü Á¤º¸ º¯È£
-	private String co_name = null;		// Çù·Â ±â°ü ÀÌ¸§
-	private String co_tel = null; 		// ÀüÈ­¹øÈ£
+	private int co_no = 0; 				// í˜‘ë ¥ ê¸°ê´€ ì •ë³´ ë³€í˜¸
+	private String co_name = null;		// í˜‘ë ¥ ê¸°ê´€ ì´ë¦„
+	private String co_tel = null; 		// ì „í™”ë²ˆí˜¸
 	private String co_detail = null;
 	
 	public  Coop(int co_no, String co_name, String co_tel, String co_detail) {

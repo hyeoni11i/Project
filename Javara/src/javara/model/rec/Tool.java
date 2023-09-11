@@ -5,15 +5,15 @@ import java.sql.Date;
 public class Tool {
 	
 	
-	private int t_no;		//±âÀÚÀç¹øÈ£
-	private int cate_no = 0;	//ºĞ·ù¹øÈ£(FK)
-	private String t_name = null;	//±âÀÚÀç¸í
-	private Date t_buy_date = null;	//±¸ÀÔÀÏÀÚ
-	private Date t_limit_date = null;	//»ç¿ë±âÇÑ
-	private Date t_reg_date = null;	//µî·ÏÀÏ
-	private int stor_no = 0;	//º¸°ü¼Ò ¹øÈ£(FK)
-	private Date t_final_ck = null;	//ÃÖÁ¾ Á¡°ËÀÏÀÚ
-	private String t_note = null;	//ºñ°í
+	private int t_no;		// ê¸°ìì¬ë²ˆí˜¸
+	private int cate_no = 0;	// ë¶„ë¥˜ë²ˆí˜¸(FK)
+	private String t_name = null;	// ê¸°ìì¬ëª…
+	private Date t_buy_date = null;	// êµ¬ì…ì¼ì
+	private Date t_limit_date = null;	// ì‚¬ìš©ê¸°í•œ
+	private Date t_reg_date = null;	// ë“±ë¡ì¼
+	private int stor_no = 0;	// ë³´ê´€ì†Œ ë²ˆí˜¸(FK)
+	private Date t_final_ck = null;	// ìµœì¢… ì ê²€ì¼ì
+	private String t_note = null;	// ë¹„ê³ 
 	
 	
 	

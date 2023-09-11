@@ -5,19 +5,19 @@ import java.util.Date;
 
 public class SubjectReports {
 	
-	private int sr_no;							// °úÁ¦º¸°í¼­ °íÀ¯¹øÈ£
-	private String sr_report_date;                 // º¸°íÀÏÀÚ
-	private int sr_participant;                  // Âü¿©ÀÎ¿ø
-	private String sr_title;                     // º¸°í¼­ Å¸ÀÌÆ²
-	private String sr_experimen_date;              // ½ÇÇèÀÏÀÚ
-	private String sr_laboflocate;               // ½ÇÇèÀå¼Ò
-	private String sr_purpose;                   // ½ÇÇè¸ñÀû
-	private int sr_repetitions;                  // ½ÇÇè ¹İº¹ È½¼ö
-	private String sr_simulationmethod;          // ½ÇÇè ±â¹ı
-	private String sr_experimentalprocedure;     // ½ÇÇè °úÁ¤
-	private String sr_simulationresult;          // ½ÇÇè°á°ú
-	private String sr_note;                      // ±âÅ¸Ãß°¡»çÇ×
-	private int sd_no;                           // ¾÷¹«ºĞ´ã °íÀ¯ ¹øÈ£
+	private int sr_no;							// ê³¼ì œë³´ê³ ì„œ ê³ ìœ ë²ˆí˜¸
+	private String sr_report_date;                 // ë³´ê³ ì¼ì
+	private int sr_participant;                  // ì°¸ì—¬ì¸ì›
+	private String sr_title;                     // ë³´ê³ ì„œ íƒ€ì´í‹€
+	private String sr_experimen_date;              // ì‹¤í—˜ì¼ì
+	private String sr_laboflocate;               // ì‹¤í—˜ì¥ì†Œ
+	private String sr_purpose;                   // ì‹¤í—˜ëª©ì 
+	private int sr_repetitions;                  // ì‹¤í—˜ ë°˜ë³µ íšŸìˆ˜
+	private String sr_simulationmethod;          // ì‹¤í—˜ ê¸°ë²•
+	private String sr_experimentalprocedure;     // ì‹¤í—˜ ê³¼ì •
+	private String sr_simulationresult;          // ì‹¤í—˜ê²°ê³¼
+	private String sr_note;                      // ê¸°íƒ€ì¶”ê°€ì‚¬í•­
+	private int sd_no;                           // ì—…ë¬´ë¶„ë‹´ ê³ ìœ  ë²ˆí˜¸
 	public SubjectReports() {
 		// TODO Auto-generated constructor stub
 		sr_no=0;

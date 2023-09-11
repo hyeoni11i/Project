@@ -4,11 +4,11 @@ import java.sql.Date;
 
 public class coopinfo {
 
-	private int ci_no = 0; // °úÁ¦ Çù·Â ±â°ü ¹øÈ£
-	private int si_no = 0; // °úÁ¦¹øÈ£(FK)
-	private int co_no = 0; // Çù·Â ±â°ü Á¤º¸ ¹øÈ£(FK)
-	private Date ci_sdate = null; // ½ÃÀÛÀÏ
-	private Date c_edate = null; // Á¾·áÀÏ
+	private int ci_no = 0; // ê³¼ì œ í˜‘ë ¥ ê¸°ê´€ ë²ˆí˜¸
+	private int si_no = 0; // ê³¼ì œë²ˆí˜¸(FK)
+	private int co_no = 0; // í˜‘ë ¥ ê¸°ê´€ ì •ë³´ ë²ˆí˜¸(FK)
+	private Date ci_sdate = null; // ì‹œì‘ì¼
+	private Date c_edate = null; // ì¢…ë£Œì¼
 
 	public coopinfo(int ci_no, int si_no, int co_no, Date ci_sdate, Date c_edate) {
 		this.ci_no = ci_no;

@@ -7,18 +7,18 @@ import java.util.Date;
 
 public class SubjectInfo {
 	
-	private int si_no; 						//°úÁ¦¹øÈ£
-	private String si_title;				//°úÁ¦Å¸ÀÌÆ²
-	private String si_goal_subject;			//°úÁ¦¸ñÇ¥
-	private String si_detail;				//°úÁ¦»ó¼¼
-	private String si_publishing_date;		//°úÁ¦ °Ô½ÃÀÏ
-	private String si_end_date; 				//Á¾·áÀÏ
-	private Double si_budget;				//¿¹»ê¾×
-	private int maj_no;						//ÇĞ°ú ¹øÈ£
-	private String maj_name;				//ÇĞ°ú¸í
+	private int si_no; 						// ê³¼ì œë²ˆí˜¸
+	private String si_title;				// ê³¼ì œíƒ€ì´í‹€
+	private String si_goal_subject;			// ê³¼ì œëª©í‘œ
+	private String si_detail;				// ê³¼ì œìƒì„¸
+	private String si_publishing_date;		// ê³¼ì œ ê²Œì‹œì¼
+	private String si_end_date; 				// ì¢…ë£Œì¼
+	private Double si_budget;				// ì˜ˆì‚°ì•¡
+	private int maj_no;						// í•™ê³¼ ë²ˆí˜¸
+	private String maj_name;				// í•™ê³¼ëª…
 	
-	private int prof_no;					//´ã´ç±³¼ö PROF_NO;
-	private String prof_name;				//´ã´ç±³¼ö ÀÌ¸§
+	private int prof_no;					// ë‹´ë‹¹êµìˆ˜ PROF_NO;
+	private String prof_name;				// ë‹´ë‹¹êµìˆ˜ ì´ë¦„
 	
 	
 	public SubjectInfo() {
@@ -62,7 +62,7 @@ public class SubjectInfo {
 	public void setProf_name(String prof_name) {
 		this.prof_name = prof_name;
 	}
-	private Double si_pay;					//¼ö´ç
+	private Double si_pay;					// ìˆ˜ë‹¹
 	
 
 
